@@ -67,5 +67,6 @@ void handWaves() {
 void loop() {
   if (handdetected()) {
     handWaves();
+    delay(1500);
   }
 }
